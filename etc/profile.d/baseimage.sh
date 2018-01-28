@@ -1,2 +1,4 @@
 # File mode creation mask
-umask 0077
+if [[ $EUID -ne 0 ]]; then
+    umask 0077
+fi
