@@ -21,11 +21,6 @@ export LANG="C.UTF-8"
 export LC_ALL="C.UTF-8"
 export LC_CTYPE="C.UTF-8"
 
-# Flask
-export FLASK_APP="application.py"
-export FLASK_DEBUG="0"
-export FLASK_ENV="development"
-
 # Java
 export CLASSPATH=".:/usr/share/java/cs50.jar"
 export JAVA_HOME="/opt/jdk-12.0.1"
