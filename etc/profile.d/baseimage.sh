@@ -26,8 +26,6 @@ export FLASK_APP="application.py"
 export FLASK_DEBUG="0"
 export FLASK_ENV="development"
 
-export APPLICATION_ENV="dev"
-
 # Java
 export CLASSPATH=".:/usr/share/java/cs50.jar"
 export JAVA_HOME="/opt/jdk-12.0.1"
